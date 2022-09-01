@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T10:35:58Z" name="Suite" finished-at="2022-09-01T10:36:09Z" duration-ms="11649">
+    <groups>
+    </groups>
+    <test started-at="2022-09-01T10:35:58Z" name="Test1" finished-at="2022-09-01T10:36:06Z" duration-ms="8686">
+      <class name="com.Test.MobileTest">
+        <test-method signature="mobile_Test()[pri:0, instance:com.Test.MobileTest@ae3540e]" started-at="2022-09-01T10:35:58Z" name="mobile_Test" finished-at="2022-09-01T10:36:01Z" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile_Test -->
+      </class> <!-- com.Test.MobileTest -->
+      <class name="com.Test.MobleListTest">
+        <test-method signature="mobile_List_Test()[pri:0, instance:com.Test.MobleListTest@600b9d27]" started-at="2022-09-01T10:36:01Z" name="mobile_List_Test" finished-at="2022-09-01T10:36:06Z" duration-ms="5616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile_List_Test -->
+      </class> <!-- com.Test.MobleListTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-09-01T10:36:07Z" name="Test2" finished-at="2022-09-01T10:36:09Z" duration-ms="2890">
+      <class name="com.Test.DashboardTest">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:com.Test.DashboardTest@6c4980d3]" started-at="2022-09-01T10:35:51Z" name="initBrowser" finished-at="2022-09-01T10:35:58Z" duration-ms="7083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="book_test()[pri:0, instance:com.Test.DashboardTest@6c4980d3]" started-at="2022-09-01T10:36:07Z" name="book_test" finished-at="2022-09-01T10:36:09Z" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book_test -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:com.Test.DashboardTest@6c4980d3]" started-at="2022-09-01T10:36:09Z" name="close_Browser" finished-at="2022-09-01T10:36:16Z" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- com.Test.DashboardTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
